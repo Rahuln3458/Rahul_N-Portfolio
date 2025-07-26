@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f8f9fa" />
+  
+  <!-- Weather Dashboard Illustration -->
+  <g transform="translate(50, 30)">
+    <!-- Browser Window -->
+    <rect x="0" y="0" width="300" height="200" rx="5" fill="#ffffff" stroke="#dee2e6" stroke-width="2" />
+    
+    <!-- Browser Header -->
+    <rect x="0" y="0" width="300" height="30" rx="5" fill="#f1f3f5" stroke="#dee2e6" stroke-width="2" />
+    
+    <!-- Browser Controls -->
+    <circle cx="15" cy="15" r="5" fill="#fa5252" />
+    <circle cx="35" cy="15" r="5" fill="#fcc419" />
+    <circle cx="55" cy="15" r="5" fill="#40c057" />
+    
+    <!-- URL Bar -->
+    <rect x="80" y="10" width="200" height="15" rx="3" fill="#e9ecef" />
+    
+    <!-- Dashboard Layout -->
+    <!-- Sidebar -->
+    <rect x="10" y="40" width="80" height="150" rx="3" fill="#f1f3f5" />
+    
+    <!-- Search Box -->
+    <rect x="20" y="50" width="60" height="20" rx="3" fill="#ffffff" stroke="#dee2e6" stroke-width="1" />
+    <circle cx="30" cy="60" r="5" fill="#4a6cf7" opacity="0.2" />
+    <path d="M33 63 L37 67" stroke="#4a6cf7" stroke-width="2" />
+    <rect x="40" y="57" width="30" height="6" rx="2" fill="#6c757d" opacity="0.3" />
+    
+    <!-- Location List -->
+    <rect x="20" y="80" width="60" height="15" rx="2" fill="#ffffff" stroke="#dee2e6" stroke-width="1" />
+    <rect x="25" y="85" width="40" height="5" rx="1" fill="#495057" />
+    
+    <rect x="20" y="100" width="60" height="15" rx="2" fill="#ffffff" stroke="#dee2e6" stroke-width="1" />
+    <rect x="25" y="105" width="40" height="5" rx="1" fill="#495057" />
+    
+    <rect x="20" y="120" width="60" height="15" rx="2" fill="#4a6cf7" opacity="0.2" stroke="#4a6cf7" stroke-width="1" />
+    <rect x="25" y="125" width="40" height="5" rx="1" fill="#495057" />
+    
+    <rect x="20" y="140" width="60" height="15" rx="2" fill="#ffffff" stroke="#dee2e6" stroke-width="1" />
+    <rect x="25" y="145" width="40" height="5" rx="1" fill="#495057" />
+    
+    <!-- Settings Icon -->
+    <circle cx="30" cy="170" r="5" fill="#6c757d" opacity="0.3" />
+    <path d="M30 167 L30 173 M27 170 L33 170" stroke="#6c757d" stroke-width="1" />
+    <rect x="40" y="167" width="30" height="6" rx="2" fill="#6c757d" opacity="0.3" />
+    
+    <!-- Main Content -->
+    <!-- Current Weather -->
+    <rect x="100" y="40" width="190" height="70" rx="3" fill="#4a6cf7" opacity="0.1" />
+    
+    <!-- City Name -->
+    <text x="120" y="60" font-family="Arial" font-weight="bold" font-size="12" fill="#495057">New York City</text>
+    
+    <!-- Current Temperature -->
+    <text x="120" y="85" font-family="Arial" font-weight="bold" font-size="20" fill="#4a6cf7">72°F</text>
+    
+    <!-- Weather Condition -->
+    <text x="120" y="100" font-family="Arial" font-size="10" fill="#6c757d">Partly Cloudy</text>
+    
+    <!-- Weather Icon -->
+    <circle cx="250" cy="75" r="25" fill="#fcc419" opacity="0.8" />
+    <circle cx="235" cy="75" r="15" fill="#f8f9fa" opacity="0.9" />
+    <circle cx="260" cy="75" r="15" fill="#f8f9fa" opacity="0.9" />
+    <circle cx="250" cy="65" r="10" fill="#f8f9fa" opacity="0.9" />
+    
+    <!-- 5-Day Forecast -->
+    <g transform="translate(100, 120)">
+      <!-- Day 1 -->
+      <rect x="0" y="0" width="30" height="60" rx="3" fill="#ffffff" stroke="#dee2e6" stroke-width="1" />
+      <text x="15" y="15" text-anchor="middle" font-family="Arial" font-size="8" fill="#495057">Mon</text>
+      <circle cx="15" cy="30" r="8" fill="#fcc419" opacity="0.8" />
+      <text x="15" y="50" text-anchor="middle" font-family="Arial" font-size="8" fill="#495057">75°</text>
+      
+      <!-- Day 2 -->
+      <rect x="40" y="0" width="30" height="60" rx="3" fill="#ffffff" stroke="#dee2e6" stroke-width="1" />
+      <text x="55" y="15" text-anchor="middle" font-family="Arial" font-size="8" fill="#495057">Tue</text>
+      <circle cx="55" cy="30" r="8" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1" />
+      <path d="M50 30 L60 30 M55 25 L55 35" stroke="#6c757d" stroke-width="1" />
+      <text x="55" y="50" text-anchor="middle" font-family="Arial" font-size="8" fill="#495057">68°</text>
+      
+      <!-- Day 3 -->
+      <rect x="80" y="0" width="30" height="60" rx="3" fill="#ffffff" stroke="#dee2e6" stroke-width="1" />
+      <text x="95" y="15" text-anchor="middle" font-family="Arial" font-size="8" fill="#495057">Wed</text>
+      <path d="M90 30 L100 25 L90 25 L100 30 L90 30 L100 35" stroke="#4a6cf7" stroke-width="1" fill="none" />
+      <text x="95" y="50" text-anchor="middle" font-family="Arial" font-size="8" fill="#495057">65°</text>
+      
+      <!-- Day 4 -->
+      <rect x="120" y="0" width="30" height="60" rx="3" fill="#ffffff" stroke="#dee2e6" stroke-width="1" />
+      <text x="135" y="15" text-anchor="middle" font-family="Arial" font-size="8" fill="#495057">Thu</text>
+      <circle cx="135" cy="30" r="8" fill="#fcc419" opacity="0.8" />
+      <text x="135" y="50" text-anchor="middle" font-family="Arial" font-size="8" fill="#495057">72°</text>
+      
+      <!-- Day 5 -->
+      <rect x="160" y="0" width="30" height="60" rx="3" fill="#ffffff" stroke="#dee2e6" stroke-width="1" />
+      <text x="175" y="15" text-anchor="middle" font-family="Arial" font-size="8" fill="#495057">Fri</text>
+      <circle cx="175" cy="30" r="8" fill="#fcc419" opacity="0.8" />
+      <text x="175" y="50" text-anchor="middle" font-family="Arial" font-size="8" fill="#495057">78°</text>
+    </g>
+  </g>
+  
+  <!-- Weather Icons -->
+  <g transform="translate(20, 250)">
+    <!-- Sun -->
+    <circle cx="15" cy="0" r="8" fill="#fcc419" />
+    
+    <!-- Cloud -->
+    <path d="M45 0 Q45 -5 50 -5 Q55 -5 55 0 Q60 -8 65 -5 Q70 -5 70 0 Q75 0 75 5 Q75 10 70 10 Q70 10 50 10 Q45 10 45 5 Z" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1" />
+    
+    <!-- Rain -->
+    <g transform="translate(90, 0)">
+      <path d="M0 0 Q0 -5 5 -5 Q10 -5 10 0 Q15 -8 20 -5 Q25 -5 25 0 Q30 0 30 5 Q30 10 25 10 Q25 10 5 10 Q0 10 0 5 Z" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1" />
+      <line x1="5" y1="15" x2="3" y2="20" stroke="#4a6cf7" stroke-width="1" />
+      <line x1="15" y1="15" x2="13" y2="20" stroke="#4a6cf7" stroke-width="1" />
+      <line x1="25" y1="15" x2="23" y2="20" stroke="#4a6cf7" stroke-width="1" />
+    </g>
+    
+    <!-- Snow -->
+    <g transform="translate(130, 0)">
+      <path d="M0 0 Q0 -5 5 -5 Q10 -5 10 0 Q15 -8 20 -5 Q25 -5 25 0 Q30 0 30 5 Q30 10 25 10 Q25 10 5 10 Q0 10 0 5 Z" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1" />
+      <circle cx="5" cy="17" r="2" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1" />
+      <circle cx="15" cy="17" r="2" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1" />
+      <circle cx="25" cy="17" r="2" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1" />
+    </g>
+  </g>
+  
+  <!-- Weather Dashboard Text -->
+  <text x="200" y="280" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="16" fill="#4a6cf7">Weather Dashboard</text>
+</svg>

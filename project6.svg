@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f8f9fa" />
+  
+  <!-- Design Board Background -->
+  <rect x="50" y="30" width="300" height="220" rx="10" fill="#ffffff" stroke="#dee2e6" stroke-width="2" />
+  
+  <!-- Design Software UI Elements -->
+  <rect x="50" y="30" width="300" height="30" rx="10" fill="#f1f3f5" stroke="#dee2e6" stroke-width="2" />
+  
+  <!-- Software Controls -->
+  <circle cx="65" cy="45" r="5" fill="#fa5252" />
+  <circle cx="80" cy="45" r="5" fill="#fcc419" />
+  <circle cx="95" cy="45" r="5" fill="#40c057" />
+  
+  <!-- Software Title -->
+  <text x="200" y="48" text-anchor="middle" font-family="Arial" font-size="12" fill="#495057">Food Delivery App UI</text>
+  
+  <!-- Design Canvas -->
+  <rect x="65" y="70" width="270" height="170" rx="5" fill="#f8f9fa" />
+  
+  <!-- Phone Mockups -->
+  <!-- Phone 1 - Home Screen -->
+  <g transform="translate(80, 80)">
+    <rect x="0" y="0" width="70" height="150" rx="10" fill="#ffffff" stroke="#fa5252" stroke-width="2" />
+    
+    <!-- Status Bar -->
+    <rect x="0" y="0" width="70" height="15" rx="10" fill="#fa5252" />
+    
+    <!-- App Header -->
+    <rect x="5" y="20" width="60" height="20" rx="5" fill="#f1f3f5" />
+    <circle cx="15" cy="30" r="5" fill="#fa5252" opacity="0.5" />
+    <rect x="25" y="25" width="30" height="5" rx="2" fill="#fa5252" opacity="0.5" />
+    <circle cx="60" cy="30" r="5" fill="#fa5252" opacity="0.5" />
+    
+    <!-- Search Bar -->
+    <rect x="5" y="45" width="60" height="15" rx="7" fill="#f1f3f5" />
+    <circle cx="15" cy="52" r="3" fill="#6c757d" opacity="0.5" />
+    <rect x="20" y="50" width="35" height="4" rx="2" fill="#6c757d" opacity="0.3" />
+    
+    <!-- Food Categories -->
+    <rect x="5" y="65" width="15" height="15" rx="7" fill="#fa5252" opacity="0.2" />
+    <rect x="25" y="65" width="15" height="15" rx="7" fill="#fcc419" opacity="0.2" />
+    <rect x="45" y="65" width="15" height="15" rx="7" fill="#40c057" opacity="0.2" />
+    
+    <!-- Restaurant Card -->
+    <rect x="5" y="85" width="60" height="40" rx="5" fill="#fa5252" opacity="0.1" />
+    <rect x="10" y="90" width="20" height="20" rx="3" fill="#fa5252" opacity="0.2" />
+    <rect x="35" y="90" width="25" height="5" rx="2" fill="#495057" />
+    <rect x="35" y="100" width="20" height="3" rx="1" fill="#6c757d" opacity="0.5" />
+    <rect x="35" y="105" width="15" height="3" rx="1" fill="#fa5252" opacity="0.5" />
+    
+    <!-- Bottom Navigation -->
+    <rect x="0" y="135" width="70" height="15" rx="0" fill="#f1f3f5" />
+    <circle cx="15" cy="142" r="3" fill="#fa5252" />
+    <circle cx="35" cy="142" r="3" fill="#6c757d" opacity="0.5" />
+    <circle cx="55" cy="142" r="3" fill="#6c757d" opacity="0.5" />
+  </g>
+  
+  <!-- Phone 2 - Restaurant Details -->
+  <g transform="translate(165, 80)">
+    <rect x="0" y="0" width="70" height="150" rx="10" fill="#ffffff" stroke="#fa5252" stroke-width="2" />
+    
+    <!-- Status Bar -->
+    <rect x="0" y="0" width="70" height="15" rx="10" fill="#fa5252" />
+    
+    <!-- Back Button -->
+    <circle cx="15" cy="25" r="5" fill="#f1f3f5" />
+    <path d="M17 25 L13 25 M13 25 L15 23 M13 25 L15 27" stroke="#fa5252" stroke-width="1" fill="none" />
+    
+    <!-- Restaurant Name -->
+    <rect x="25" y="22" width="30" height="5" rx="2" fill="#495057" />
+    
+    <!-- Restaurant Image -->
+    <rect x="5" y="35" width="60" height="30" rx="5" fill="#fa5252" opacity="0.2" />
+    
+    <!-- Rating -->
+    <rect x="5" y="70" width="25" height="5" rx="2" fill="#fcc419" opacity="0.5" />
+    <rect x="35" y="70" width="15" height="5" rx="2" fill="#6c757d" opacity="0.3" />
+    
+    <!-- Menu Items -->
+    <rect x="5" y="80" width="60" height="15" rx="3" fill="#f1f3f5" />
+    <rect x="10" y="85" width="10" height="5" rx="2" fill="#fa5252" opacity="0.2" />
+    <rect x="25" y="85" width="30" height="5" rx="2" fill="#6c757d" opacity="0.5" />
+    
+    <rect x="5" y="100" width="60" height="15" rx="3" fill="#f1f3f5" />
+    <rect x="10" y="105" width="10" height="5" rx="2" fill="#fa5252" opacity="0.2" />
+    <rect x="25" y="105" width="30" height="5" rx="2" fill="#6c757d" opacity="0.5" />
+    
+    <!-- Order Button -->
+    <rect x="5" y="125" width="60" height="15" rx="7" fill="#fa5252" />
+    <rect x="20" y="130" width="30" height="5" rx="2" fill="#ffffff" />
+  </g>
+  
+  <!-- Phone 3 - Checkout Screen -->
+  <g transform="translate(250, 80)">
+    <rect x="0" y="0" width="70" height="150" rx="10" fill="#ffffff" stroke="#fa5252" stroke-width="2" />
+    
+    <!-- Status Bar -->
+    <rect x="0" y="0" width="70" height="15" rx="10" fill="#fa5252" />
+    
+    <!-- Back Button -->
+    <circle cx="15" cy="25" r="5" fill="#f1f3f5" />
+    <path d="M17 25 L13 25 M13 25 L15 23 M13 25 L15 27" stroke="#fa5252" stroke-width="1" fill="none" />
+    
+    <!-- Title -->
+    <rect x="25" y="22" width="30" height="5" rx="2" fill="#495057" />
+    
+    <!-- Order Summary -->
+    <rect x="5" y="35" width="60" height="40" rx="5" fill="#f1f3f5" />
+    
+    <!-- Order Items -->
+    <rect x="10" y="40" width="40" height="5" rx="2" fill="#495057" />
+    <rect x="55" y="40" width="5" height="5" rx="2" fill="#fa5252" />
+    
+    <rect x="10" y="50" width="30" height="3" rx="1" fill="#6c757d" opacity="0.5" />
+    <rect x="50" y="50" width="10" height="3" rx="1" fill="#6c757d" opacity="0.5" />
+    
+    <rect x="10" y="60" width="30" height="3" rx="1" fill="#6c757d" opacity="0.5" />
+    <rect x="50" y="60" width="10" height="3" rx="1" fill="#6c757d" opacity="0.5" />
+    
+    <rect x="10" y="70" width="30" height="3" rx="1" fill="#6c757d" opacity="0.5" />
+    <rect x="50" y="70" width="10" height="3" rx="1" fill="#6c757d" opacity="0.5" />
+    
+    <!-- Delivery Address -->
+    <rect x="5" y="80" width="60" height="25" rx="5" fill="#f1f3f5" />
+    <rect x="10" y="85" width="30" height="5" rx="2" fill="#495057" />
+    <rect x="10" y="95" width="50" height="3" rx="1" fill="#6c757d" opacity="0.5" />
+    <rect x="10" y="100" width="40" height="3" rx="1" fill="#6c757d" opacity="0.5" />
+    
+    <!-- Payment Method -->
+    <rect x="5" y="110" width="60" height="15" rx="5" fill="#f1f3f5" />
+    <rect x="10" y="115" width="30" height="5" rx="2" fill="#495057" />
+    <rect x="50" y="115" width="10" height="5" rx="2" fill="#fa5252" opacity="0.2" />
+    
+    <!-- Checkout Button -->
+    <rect x="5" y="130" width="60" height="15" rx="7" fill="#fa5252" />
+    <rect x="15" y="135" width="40" height="5" rx="2" fill="#ffffff" />
+  </g>
+  
+  <!-- Design Elements -->
+  <!-- Color Palette -->
+  <g transform="translate(65, 250)">
+    <circle cx="10" cy="0" r="5" fill="#fa5252" />
+    <circle cx="25" cy="0" r="5" fill="#f1f3f5" />
+    <circle cx="40" cy="0" r="5" fill="#495057" />
+    <circle cx="55" cy="0" r="5" fill="#ffffff" stroke="#dee2e6" stroke-width="1" />
+  </g>
+  
+  <!-- Typography Sample -->
+  <g transform="translate(130, 250)">
+    <rect x="0" y="-5" width="20" height="5" rx="2" fill="#495057" />
+    <rect x="0" y="5" width="15" height="3" rx="1" fill="#6c757d" opacity="0.5" />
+  </g>
+  
+  <!-- Component Library -->
+  <g transform="translate(180, 250)">
+    <rect x="0" y="-5" width="15" height="10" rx="5" fill="#fa5252" opacity="0.5" />
+    <rect x="20" y="-5" width="15" height="10" rx="2" fill="#f1f3f5" />
+    <circle cx="45" cy="0" r="5" fill="#f1f3f5" stroke="#fa5252" stroke-width="1" />
+  </g>
+  
+  <!-- Food Icons -->
+  <g transform="translate(240, 250)">
+    <circle cx="0" cy="0" r="5" fill="#fa5252" opacity="0.2" />
+    <path d="M-3 0 A3 3 0 0 1 3 0" stroke="#fa5252" stroke-width="1" fill="none" />
+    
+    <circle cx="15" cy="0" r="5" fill="#fcc419" opacity="0.2" />
+    <circle cx="15" cy="0" r="3" fill="#fcc419" opacity="0.5" />
+    
+    <circle cx="30" cy="0" r="5" fill="#40c057" opacity="0.2" />
+    <path d="M27 0 L33 0 M30 -3 L30 3" stroke="#40c057" stroke-width="1" />
+    
+    <circle cx="45" cy="0" r="5" fill="#15aabf" opacity="0.2" />
+    <path d="M42 -2 L48 -2 L48 2 L42 2 Z" stroke="#15aabf" stroke-width="1" fill="none" />
+  </g>
+  
+  <!-- Food Delivery App UI Text -->
+  <text x="200" y="280" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="16" fill="#fa5252">Food Delivery App UI</text>
+</svg>
